@@ -1,0 +1,25 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##contig=<ID=synthetic_chr1,length=3000>
+##INFO=<ID=VAF,Number=1,Type=Float,Description="True simulated variant allele fraction">
+##INFO=<ID=TYPE,Number=1,Type=String,Description="Variant type">
+##bcftools_normVersion=1.24+htslib-1.24
+##bcftools_normCommand=norm -f '/Users/kalyanipande/My Drive/Career/projects/VariantAnalysisFramework/data/raw/reference.fasta' -o '/Users/kalyanipande/My Drive/Career/projects/VariantAnalysisFramework/data/raw/gold_vcf/sample_16.gold.vcf.norm.tmp' '/Users/kalyanipande/My Drive/Career/projects/VariantAnalysisFramework/data/raw/gold_vcf/sample_16.gold.vcf'; Date=Mon Sep 28 11:15:32 2026
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+synthetic_chr1	122	.	A	C	.	PASS	VAF=0.48;TYPE=SNP
+synthetic_chr1	148	.	T	A	.	PASS	VAF=0.95;TYPE=SNP
+synthetic_chr1	236	.	A	T	.	PASS	VAF=0.44;TYPE=SNP
+synthetic_chr1	256	.	A	T	.	PASS	VAF=0.43;TYPE=SNP
+synthetic_chr1	278	.	C	T	.	PASS	VAF=0.87;TYPE=SNP
+synthetic_chr1	558	.	A	G	.	PASS	VAF=0.57;TYPE=SNP
+synthetic_chr1	617	.	C	A	.	PASS	VAF=0.91;TYPE=SNP
+synthetic_chr1	684	.	CATT	C	.	PASS	VAF=0.37;TYPE=DEL
+synthetic_chr1	937	.	G	T	.	PASS	VAF=0.41;TYPE=SNP
+synthetic_chr1	1019	.	G	T	.	PASS	VAF=0.52;TYPE=SNP
+synthetic_chr1	1072	.	G	C	.	PASS	VAF=0.42;TYPE=SNP
+synthetic_chr1	1331	.	C	A	.	PASS	VAF=0.6;TYPE=SNP
+synthetic_chr1	1431	.	A	G	.	PASS	VAF=0.44;TYPE=SNP
+synthetic_chr1	1457	.	G	A	.	PASS	VAF=0.91;TYPE=SNP
+synthetic_chr1	1610	.	T	A	.	PASS	VAF=0.97;TYPE=SNP
+synthetic_chr1	1702	.	T	G	.	PASS	VAF=0.42;TYPE=SNP
+synthetic_chr1	1760	.	C	G	.	PASS	VAF=0.58;TYPE=SNP

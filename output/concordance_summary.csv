@@ -1,0 +1,7 @@
+n_samples,25
+n_variant_site_pairs_pooled,521
+pearson_correlation_vaf_vs_goldstandard,0.9135
+pearson_p_value,8.214133056998314e-205
+mean_per_sample_concordance_rate,0.7692
+mean_precision,0.7706
+mean_recall,0.9969
